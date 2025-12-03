@@ -2,9 +2,8 @@
 
 ### Predicting and Understanding Why Customers Leave — A Data-Driven Telecom Case Study
 
-A complete **Customer Churn Analysis** project using **Python and Jupyter Notebook** that explores why customers are leaving a telecom company.  
-This project showcases **data cleaning, exploratory data analysis (EDA), and business insights** — helping companies improve **customer retention** and **reduce churn rates** through data-driven decisions.
-
+A complete **Customer Churn Analysis** project built using **Python and Jupyter Notebook** to uncover the key drivers behind customer churn in a telecom company.  
+This project includes **data cleaning, exploratory data analysis (EDA), visual insights, business interpretation, and actionable recommendations** to help reduce churn and improve customer retention strategies.
 
 ![Python](https://img.shields.io/badge/Language-Python-blue) ![Jupyter Notebook](https://img.shields.io/badge/Tool-Jupyter_Notebook-orange) ![Pandas](https://img.shields.io/badge/Library-Pandas-yellow) ![Matplotlib](https://img.shields.io/badge/Library-Matplotlib-red) ![Seaborn](https://img.shields.io/badge/Library-Seaborn-lightblue) ![NumPy](https://img.shields.io/badge/Library-NumPy-green) ![Data Analysis](https://img.shields.io/badge/Focus-Data_Analysis-blue)
 
@@ -12,27 +11,46 @@ This project showcases **data cleaning, exploratory data analysis (EDA), and bus
 
 ## 📊 Project Overview
 
-The objective of this project is to analyze customer data to uncover **key patterns and reasons behind customer churn**.  
-By understanding which customers are more likely to leave and why, telecom companies can take proactive steps to **improve loyalty programs**, **optimize services**, and **increase customer lifetime value**.
+This project focuses on analyzing telecom customer data to understand **who churns and why**.  
+By identifying patterns in churn behavior, the company can take informed actions to:
 
-**Key Goals:**
-- Identify major factors influencing customer churn.
-- Analyze relationships between contract type, payment method, and churn.
-- Visualize churn trends using data visualization libraries.
-- Provide actionable insights to reduce customer attrition.
+- Improve customer retention  
+- Reduce customer acquisition costs  
+- Increase customer lifetime value  
+- Enhance service and support offerings  
+
+📌 **Result:**  
+The analysis reveals clear churn patterns and provides strategic recommendations to reduce churn by targeting high-risk groups and improving service quality.
+
+---
+
+## 🧩 Business Problem
+
+Telecom companies lose significant revenue due to high customer churn. Since retaining customers is more cost-effective than acquiring new ones, understanding churn drivers is essential.
+
+This project aims to:
+
+- Identify customer segments with the **highest churn probability**
+- Understand **behavioral and service-related factors** behind churn
+- Provide **data-driven insights** for retention strategy planning
+
+The analysis notebook serves as a complete **business solution**, uncovering pain points and offering practical recommendations.
+
+📄 **Business Problem PDF:**  
+(Upload the file, then paste link here)
 
 ---
 
 ## 🛠️ Tools & Technologies Used
 
 | Tool | Purpose |
-|------|----------|
-| **Python** | Core programming language used for analysis |
-| **Jupyter Notebook** | Interactive environment for writing and visualizing code |
-| **Pandas** | Data manipulation and cleaning |
-| **NumPy** | Numerical operations and data transformation |
-| **Matplotlib** | Data visualization and plotting |
-| **Seaborn** | Advanced visualization and correlation analysis |
+|------|---------|
+| **Python** | Core language for data analysis |
+| **Jupyter Notebook** | Interactive analytical environment |
+| **Pandas** | Data manipulation & cleaning |
+| **NumPy** | Numerical computation |
+| **Matplotlib** | Plotting & visualizations |
+| **Seaborn** | Statistical data visualizations |
 
 ---
 
@@ -40,10 +58,12 @@ By understanding which customers are more likely to leave and why, telecom compa
 
 ```
 │
-├── Customer Churn Analysis.ipynb     # Main analysis notebook
-├── Customer_churn_data.csv           # Dataset file
-├── README.md                         # Project documentation
-└── images/                           # Folder containing chart images
+├── Customer Churn Analysis.ipynb      # Main analysis notebook
+├── Customer_churn_data.csv            # Dataset file
+├── Customer Churn Analysis Report.pdf # Full project report
+├── Business_Problem.pdf              # Business problem document
+├── README.md                          # Project documentation
+└── images/                            # Folder containing chart images
     ├── Churn_by_Contract.png
     ├── Churned_by_Payment_Method.png
     ├── Churn_by_SeniorCitizen.png
