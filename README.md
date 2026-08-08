@@ -57,13 +57,19 @@ The analysis notebook serves as a complete **business solution**, uncovering pai
 ## 📁 File Structure
 
 ```
+├── README.md                                # Project documentation
+│ 
+├── Data/ 
+│    └── Customer_churn_data.csv             # Dataset file
 │
-├── Customer Churn Analysis.ipynb      # Main analysis notebook
-├── Customer_churn_data.csv            # Dataset file
-├── Customer Churn Analysis Report.pdf # Full project report
-├── Business_Problem.pdf              # Business problem document
-├── README.md                          # Project documentation
-└── images/                            # Folder containing chart images
+├── Docs/ 
+│    ├── Business Problem                    # Business Problem
+│    └── Customer Churn Analysis Report.pdf  # Full project report
+│
+├── Notebook/
+│    └── Customer Churn Analysis.ipynb       # Main analysis notebook
+│
+└── images/                                  # Folder containing chart images
     ├── Churn_by_Contract.png
     ├── Churned_by_Payment_Method.png
     ├── Churn_by_SeniorCitizen.png
